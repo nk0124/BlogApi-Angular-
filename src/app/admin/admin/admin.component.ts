@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import{Router} from '@angular/router' // when create a achor tag than import a router in ts 
+import{Router} from '@angular/router' 
 
 
 @Component({
