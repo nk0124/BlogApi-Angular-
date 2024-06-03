@@ -15,7 +15,6 @@ export class ProfileComponent {
      id=""
 
      constructor(private us:UserService){
-      // afterNextRender(new method in angular) -> it is a function phele je browser pe phele render hoga than fir local storage ko search karega
       afterNextRender(()=>{
         this.id=localStorage.getItem("userId") || "";
         this.us.getUser(this.id).subscribe(res=>{ 
