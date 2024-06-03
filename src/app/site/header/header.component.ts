@@ -15,7 +15,7 @@ export class HeaderComponent {
    constructor(private cs:CategoryService){
        this.cs.getCategories().subscribe(res=>{
          this.categoryData=res;
-      //   console.log(this.categoryData)
+    
        })
 
    }
