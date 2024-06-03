@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ArticleService } from '../../services/article.service';
-import { CommonModule } from '@angular/common';  // when crate a loop in tag than import a commonmodule 
+import { CommonModule } from '@angular/common';  
 
 @Component({ 
   selector: 'app-aricles',
